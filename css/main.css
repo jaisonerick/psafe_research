@@ -11,9 +11,10 @@
    ========================================================================== */
 
 html {
-    color: #222;
+    color: #37474F;
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*
@@ -97,21 +98,50 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
 
+h1 {
+  color: #6100FF;
+  font-weight: 500;
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
 
+p {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
 
+.content {
+  margin: 16px;
+}
 
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  background: #28C796;
+  padding: 11px 16px 9px;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1855);
+}
 
+.btn, .btn:hover, .btn:active, .btn:visited {
+  color: white;
+}
 
+.btn-large {
+  font-size: 24px;
+  min-width: 200px;
+  font-weight: 500;
+}
 
-
-
-
-
-
-
-
-
+.text-center {
+  text-align: center;
+}
 
 /* ==========================================================================
    Helper classes
