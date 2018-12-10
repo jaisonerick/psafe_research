@@ -19,8 +19,6 @@ $(function() {
       href += '?' + getQueryString();
     }
 
-    console.log(href);
-
     $(this).attr('href', href);
   });
 });
